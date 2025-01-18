@@ -1,0 +1,154 @@
+body{
+    font-family:"Marcellus", Roboto, sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #f0f1f0;
+}
+.container-fluid .navbar-brand{
+    font-size: 2rem;
+}
+
+
+.landing-page{
+    background-color: #f0f1f0;
+}
+.text-box{
+   text-align: center;
+   margin: 0 auto;
+   padding:6%;
+}
+.text-box h1{
+    font-size: 4rem; 
+}
+.text-box h6{
+    font-size: 18px;
+    color: #8c8a8a;
+    line-height: 1.5rem;
+}
+.swiper {
+      width: 100%;
+      height: 100%; 
+    
+}
+
+.three-slide {
+      text-align: left;
+      background-color:#f0f1f0 ;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding:0rem 3.5rem 3.5rem;
+      margin: 0px;
+}
+
+.container .row .col{
+    text-align: center;
+}
+
+.container .row .col i{
+    font-size: 2rem;
+    color: #646262;
+}
+
+
+.three-slide img{
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+
+}
+.three-slide img:hover{
+    transform: scale(0.9);
+}
+.side-pic{
+    background-color: #f0f1f0;
+    padding: 20rem;
+}
+
+.side-pic-text h1{
+    margin: 10rem 0rem 0rem 0rem;
+    }
+
+    .rotate-text-div{
+        position: relative;
+    }
+.rotate-text{
+   position: absolute;
+    top: 40%;left: 40%;
+}
+
+.swiper-box{
+    height: 30rem;
+    text-align: center;
+    background-color: #f0f1f0;
+    padding: 20px;
+}
+.mySwiper {
+      width: 75%;
+      height:75%;
+      padding: 20px;
+    }
+
+    .quote {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .quote img {
+      display: block;
+      width: 100%;
+      height: 50;
+      object-fit: cover;
+    }
+
+.rotate-text-div .rotate-text{
+    animation: text-rotate 40s -2s infinite linear;
+}
+    
+@keyframes text-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.blog-box{
+    padding: 30px;
+}
+
+
+
+.arrival{
+    padding: 7rem 7rem 2rem 7rem;
+}
+.four-slide{
+    padding: 2rem 7rem;
+    width: 300px;
+    
+}
+.four-slide img{
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+    
+}
+.four-slide img:hover{
+    transform: scale(0.9);
+}
+
+.categories img{
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+    
+}
+.categories img:hover{
+    transform: scale(0.9);
+}
